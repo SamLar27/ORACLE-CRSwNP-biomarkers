@@ -124,6 +124,8 @@ The scripts must be run **in order** (A → B → C), as each part depends on ou
 ## Citation
 
 > Mailhot-Larouche S, Wickham P, Meulmeester FL, et al. Type-2 Biomarkers in Asthma With Nasal Polyps: Discriminative and Prognostic Value. *Allergy* (submitted).
+>
+> Code: https://github.com/SamLar27/ORACLE-CRSwNP-biomarkers
 
 ---
 
