@@ -1,0 +1,34 @@
+# ── Patient data & saved R objects ───────────────────────────────────────────
+*.RData
+*.rds
+*.RDS
+*.xlsx
+*.xls
+*.csv
+*.sav
+*.dta
+
+# ── Figures & tables output ───────────────────────────────────────────────────
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.tiff
+*.docx
+*.pptx
+
+# ── R session artifacts ───────────────────────────────────────────────────────
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+__MACOSX/
+
+# ── Temporary / editor files ──────────────────────────────────────────────────
+*~
+*.swp
+*.swo
