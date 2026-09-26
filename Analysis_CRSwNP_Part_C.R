@@ -555,7 +555,7 @@ ggsave(file.path(Figure_path, "Summary_Forest_Subgroup.pdf"),
 # iqr_* variables are defined right after data_s5 creation (Section 5.1)
 
 lbl_FeNO <- sprintf("FeNO (per %g ppb)",         round(iqr_FeNO_orig))
-lbl_BEC  <- sprintf("BEC (per %.2f \u00d710\u2079/L)", round(iqr_BEC_orig, 2))
+lbl_BEC  <- sprintf("BEC (per %.2f \u00d710^9/L)",      round(iqr_BEC_orig, 2))
 lbl_IgE  <- sprintf("IgE (per %g kU/L)",          round(iqr_IgE_orig))
 
 df_plot_iqr <- dplyr::bind_rows(
